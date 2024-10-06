@@ -7,10 +7,9 @@ function ServiceCard (props){
 
     return(
         <div className="card">
-
             <img  className="image" src={cardImage}></img>
-            <title className="card-title">title:{props.head}</title>
-            <p className="card-slug">Skills:{props.skills}</p>
+            <h3 className="card-title">Title: {props.heading}</h3>
+            <p className="card-slug">skills: {props.skills}</p>
             <br/>
 
         </div>
@@ -21,7 +20,7 @@ function ServiceCard (props){
 }
 
 ServiceCard.PropTypes={
-    head:PropTypes.string,
+    heading:PropTypes.string,
     skills:PropTypes.string,
 };
 

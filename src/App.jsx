@@ -6,10 +6,10 @@ function App() {
   return (
   <>
     <Header/>
-    <ServiceCard head="Web Development"  skills="CSS, JS, GIT, DJANGO,MONGODB"/>
-    <ServiceCard head="Web application pentesting" skills="API testing, Burpsuite, Common pentest tools"/>
-    <ServiceCard head="Training" skills="coaching, communication, tutoring"/>
-    <ServiceCard head="Content Writimg and SEO" skills="SEO, Web app Security"/>
+    <ServiceCard heading="Web Development"  skills="CSS, JS, GIT, DJANGO,MONGODB"/>
+    <ServiceCard heading="Web application pentesting" skills="API testing, Burpsuite, Common pentest tools"/>
+    <ServiceCard heading="Training" skills="coaching, communication, tutoring"/>
+    <ServiceCard heading="Content Writimg and SEO" skills="SEO, Web app Security"/>
     <Footer/>
 
   </>
